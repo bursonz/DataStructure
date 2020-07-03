@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Workspace/ClionProjects/DataStructure/LinearList/sqlist.cpp
+sqlist.h
+D:/Workspace/ClionProjects/DataStructure/LinearList/sqlist.h
+
+D:/Workspace/ClionProjects/DataStructure/LinearList/sqlist.h
+../definition.h
+D:/Workspace/ClionProjects/DataStructure/definition.h
+
+D:/Workspace/ClionProjects/DataStructure/definition.h
+
+D:/Workspace/ClionProjects/DataStructure/main.cpp
+iostream
+-
+
