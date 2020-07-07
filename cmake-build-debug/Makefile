@@ -122,59 +122,167 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
-LinearList/LinkList.obj: LinearList/LinkList.cpp.obj
+LinearList/动态顺序表.obj: LinearList/动态顺序表.cpp.obj
 
-.PHONY : LinearList/LinkList.obj
-
-# target to build an object file
-LinearList/LinkList.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/LinkList.cpp.obj
-.PHONY : LinearList/LinkList.cpp.obj
-
-LinearList/LinkList.i: LinearList/LinkList.cpp.i
-
-.PHONY : LinearList/LinkList.i
-
-# target to preprocess a source file
-LinearList/LinkList.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/LinkList.cpp.i
-.PHONY : LinearList/LinkList.cpp.i
-
-LinearList/LinkList.s: LinearList/LinkList.cpp.s
-
-.PHONY : LinearList/LinkList.s
-
-# target to generate assembly for a file
-LinearList/LinkList.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/LinkList.cpp.s
-.PHONY : LinearList/LinkList.cpp.s
-
-LinearList/sqlist.obj: LinearList/sqlist.cpp.obj
-
-.PHONY : LinearList/sqlist.obj
+.PHONY : LinearList/动态顺序表.obj
 
 # target to build an object file
-LinearList/sqlist.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/sqlist.cpp.obj
-.PHONY : LinearList/sqlist.cpp.obj
+LinearList/动态顺序表.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/动态顺序表.cpp.obj
+.PHONY : LinearList/动态顺序表.cpp.obj
 
-LinearList/sqlist.i: LinearList/sqlist.cpp.i
+LinearList/动态顺序表.i: LinearList/动态顺序表.cpp.i
 
-.PHONY : LinearList/sqlist.i
+.PHONY : LinearList/动态顺序表.i
 
 # target to preprocess a source file
-LinearList/sqlist.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/sqlist.cpp.i
-.PHONY : LinearList/sqlist.cpp.i
+LinearList/动态顺序表.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/动态顺序表.cpp.i
+.PHONY : LinearList/动态顺序表.cpp.i
 
-LinearList/sqlist.s: LinearList/sqlist.cpp.s
+LinearList/动态顺序表.s: LinearList/动态顺序表.cpp.s
 
-.PHONY : LinearList/sqlist.s
+.PHONY : LinearList/动态顺序表.s
 
 # target to generate assembly for a file
-LinearList/sqlist.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/sqlist.cpp.s
-.PHONY : LinearList/sqlist.cpp.s
+LinearList/动态顺序表.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/动态顺序表.cpp.s
+.PHONY : LinearList/动态顺序表.cpp.s
+
+LinearList/单链表.obj: LinearList/单链表.cpp.obj
+
+.PHONY : LinearList/单链表.obj
+
+# target to build an object file
+LinearList/单链表.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/单链表.cpp.obj
+.PHONY : LinearList/单链表.cpp.obj
+
+LinearList/单链表.i: LinearList/单链表.cpp.i
+
+.PHONY : LinearList/单链表.i
+
+# target to preprocess a source file
+LinearList/单链表.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/单链表.cpp.i
+.PHONY : LinearList/单链表.cpp.i
+
+LinearList/单链表.s: LinearList/单链表.cpp.s
+
+.PHONY : LinearList/单链表.s
+
+# target to generate assembly for a file
+LinearList/单链表.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/单链表.cpp.s
+.PHONY : LinearList/单链表.cpp.s
+
+LinearList/双链表.obj: LinearList/双链表.cpp.obj
+
+.PHONY : LinearList/双链表.obj
+
+# target to build an object file
+LinearList/双链表.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/双链表.cpp.obj
+.PHONY : LinearList/双链表.cpp.obj
+
+LinearList/双链表.i: LinearList/双链表.cpp.i
+
+.PHONY : LinearList/双链表.i
+
+# target to preprocess a source file
+LinearList/双链表.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/双链表.cpp.i
+.PHONY : LinearList/双链表.cpp.i
+
+LinearList/双链表.s: LinearList/双链表.cpp.s
+
+.PHONY : LinearList/双链表.s
+
+# target to generate assembly for a file
+LinearList/双链表.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/双链表.cpp.s
+.PHONY : LinearList/双链表.cpp.s
+
+LinearList/循环链表.obj: LinearList/循环链表.cpp.obj
+
+.PHONY : LinearList/循环链表.obj
+
+# target to build an object file
+LinearList/循环链表.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/循环链表.cpp.obj
+.PHONY : LinearList/循环链表.cpp.obj
+
+LinearList/循环链表.i: LinearList/循环链表.cpp.i
+
+.PHONY : LinearList/循环链表.i
+
+# target to preprocess a source file
+LinearList/循环链表.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/循环链表.cpp.i
+.PHONY : LinearList/循环链表.cpp.i
+
+LinearList/循环链表.s: LinearList/循环链表.cpp.s
+
+.PHONY : LinearList/循环链表.s
+
+# target to generate assembly for a file
+LinearList/循环链表.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/循环链表.cpp.s
+.PHONY : LinearList/循环链表.cpp.s
+
+LinearList/静态链表.obj: LinearList/静态链表.cpp.obj
+
+.PHONY : LinearList/静态链表.obj
+
+# target to build an object file
+LinearList/静态链表.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/静态链表.cpp.obj
+.PHONY : LinearList/静态链表.cpp.obj
+
+LinearList/静态链表.i: LinearList/静态链表.cpp.i
+
+.PHONY : LinearList/静态链表.i
+
+# target to preprocess a source file
+LinearList/静态链表.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/静态链表.cpp.i
+.PHONY : LinearList/静态链表.cpp.i
+
+LinearList/静态链表.s: LinearList/静态链表.cpp.s
+
+.PHONY : LinearList/静态链表.s
+
+# target to generate assembly for a file
+LinearList/静态链表.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/静态链表.cpp.s
+.PHONY : LinearList/静态链表.cpp.s
+
+LinearList/静态顺序表.obj: LinearList/静态顺序表.cpp.obj
+
+.PHONY : LinearList/静态顺序表.obj
+
+# target to build an object file
+LinearList/静态顺序表.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/静态顺序表.cpp.obj
+.PHONY : LinearList/静态顺序表.cpp.obj
+
+LinearList/静态顺序表.i: LinearList/静态顺序表.cpp.i
+
+.PHONY : LinearList/静态顺序表.i
+
+# target to preprocess a source file
+LinearList/静态顺序表.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/静态顺序表.cpp.i
+.PHONY : LinearList/静态顺序表.cpp.i
+
+LinearList/静态顺序表.s: LinearList/静态顺序表.cpp.s
+
+.PHONY : LinearList/静态顺序表.s
+
+# target to generate assembly for a file
+LinearList/静态顺序表.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/静态顺序表.cpp.s
+.PHONY : LinearList/静态顺序表.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -203,6 +311,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+线性表.obj: 线性表.cpp.obj
+
+.PHONY : 线性表.obj
+
+# target to build an object file
+线性表.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/线性表.cpp.obj
+.PHONY : 线性表.cpp.obj
+
+线性表.i: 线性表.cpp.i
+
+.PHONY : 线性表.i
+
+# target to preprocess a source file
+线性表.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/线性表.cpp.i
+.PHONY : 线性表.cpp.i
+
+线性表.s: 线性表.cpp.s
+
+.PHONY : 线性表.s
+
+# target to generate assembly for a file
+线性表.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/线性表.cpp.s
+.PHONY : 线性表.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -212,15 +347,30 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... LinearList/LinkList.obj
-	@echo ... LinearList/LinkList.i
-	@echo ... LinearList/LinkList.s
-	@echo ... LinearList/sqlist.obj
-	@echo ... LinearList/sqlist.i
-	@echo ... LinearList/sqlist.s
+	@echo ... LinearList/动态顺序表.obj
+	@echo ... LinearList/动态顺序表.i
+	@echo ... LinearList/动态顺序表.s
+	@echo ... LinearList/单链表.obj
+	@echo ... LinearList/单链表.i
+	@echo ... LinearList/单链表.s
+	@echo ... LinearList/双链表.obj
+	@echo ... LinearList/双链表.i
+	@echo ... LinearList/双链表.s
+	@echo ... LinearList/循环链表.obj
+	@echo ... LinearList/循环链表.i
+	@echo ... LinearList/循环链表.s
+	@echo ... LinearList/静态链表.obj
+	@echo ... LinearList/静态链表.i
+	@echo ... LinearList/静态链表.s
+	@echo ... LinearList/静态顺序表.obj
+	@echo ... LinearList/静态顺序表.i
+	@echo ... LinearList/静态顺序表.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... 线性表.obj
+	@echo ... 线性表.i
+	@echo ... 线性表.s
 .PHONY : help
 
 

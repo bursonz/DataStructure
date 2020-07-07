@@ -1,8 +1,8 @@
 //
 // Created by Burson on 2020/7/3.
 //
-#include <stdlib.h>
-#include "sqlist.h"
+#include <iostream>
+#include "静态顺序表.h"
 
 //公共抽象
 
