@@ -20,7 +20,7 @@
 
 typedef struct {
 
-}List,LinearList;
+} List, LinearList;
 
 /************ 工具 ************/
 /**
