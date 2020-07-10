@@ -10,6 +10,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Workspace/ClionProjects/DataStructure/LinearList/循环链表.cpp" "D:/Workspace/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/LinearList/循环链表.cpp.obj"
   "D:/Workspace/ClionProjects/DataStructure/LinearList/静态链表.cpp" "D:/Workspace/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/LinearList/静态链表.cpp.obj"
   "D:/Workspace/ClionProjects/DataStructure/LinearList/静态顺序表.cpp" "D:/Workspace/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/LinearList/静态顺序表.cpp.obj"
+  "D:/Workspace/ClionProjects/DataStructure/Stack/共享栈.cpp" "D:/Workspace/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.obj"
+  "D:/Workspace/ClionProjects/DataStructure/Stack/栈.cpp" "D:/Workspace/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Stack/栈.cpp.obj"
+  "D:/Workspace/ClionProjects/DataStructure/Stack/链栈.cpp" "D:/Workspace/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Stack/链栈.cpp.obj"
+  "D:/Workspace/ClionProjects/DataStructure/Stack/顺序栈.cpp" "D:/Workspace/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.obj"
   "D:/Workspace/ClionProjects/DataStructure/main.cpp" "D:/Workspace/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/main.cpp.obj"
   "D:/Workspace/ClionProjects/DataStructure/线性表.cpp" "D:/Workspace/ClionProjects/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/线性表.cpp.obj"
   )

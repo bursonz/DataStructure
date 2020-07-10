@@ -284,6 +284,114 @@ LinearList/静态顺序表.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/静态顺序表.cpp.s
 .PHONY : LinearList/静态顺序表.cpp.s
 
+Stack/共享栈.obj: Stack/共享栈.cpp.obj
+
+.PHONY : Stack/共享栈.obj
+
+# target to build an object file
+Stack/共享栈.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.obj
+.PHONY : Stack/共享栈.cpp.obj
+
+Stack/共享栈.i: Stack/共享栈.cpp.i
+
+.PHONY : Stack/共享栈.i
+
+# target to preprocess a source file
+Stack/共享栈.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.i
+.PHONY : Stack/共享栈.cpp.i
+
+Stack/共享栈.s: Stack/共享栈.cpp.s
+
+.PHONY : Stack/共享栈.s
+
+# target to generate assembly for a file
+Stack/共享栈.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.s
+.PHONY : Stack/共享栈.cpp.s
+
+Stack/栈.obj: Stack/栈.cpp.obj
+
+.PHONY : Stack/栈.obj
+
+# target to build an object file
+Stack/栈.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/栈.cpp.obj
+.PHONY : Stack/栈.cpp.obj
+
+Stack/栈.i: Stack/栈.cpp.i
+
+.PHONY : Stack/栈.i
+
+# target to preprocess a source file
+Stack/栈.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/栈.cpp.i
+.PHONY : Stack/栈.cpp.i
+
+Stack/栈.s: Stack/栈.cpp.s
+
+.PHONY : Stack/栈.s
+
+# target to generate assembly for a file
+Stack/栈.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/栈.cpp.s
+.PHONY : Stack/栈.cpp.s
+
+Stack/链栈.obj: Stack/链栈.cpp.obj
+
+.PHONY : Stack/链栈.obj
+
+# target to build an object file
+Stack/链栈.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/链栈.cpp.obj
+.PHONY : Stack/链栈.cpp.obj
+
+Stack/链栈.i: Stack/链栈.cpp.i
+
+.PHONY : Stack/链栈.i
+
+# target to preprocess a source file
+Stack/链栈.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/链栈.cpp.i
+.PHONY : Stack/链栈.cpp.i
+
+Stack/链栈.s: Stack/链栈.cpp.s
+
+.PHONY : Stack/链栈.s
+
+# target to generate assembly for a file
+Stack/链栈.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/链栈.cpp.s
+.PHONY : Stack/链栈.cpp.s
+
+Stack/顺序栈.obj: Stack/顺序栈.cpp.obj
+
+.PHONY : Stack/顺序栈.obj
+
+# target to build an object file
+Stack/顺序栈.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.obj
+.PHONY : Stack/顺序栈.cpp.obj
+
+Stack/顺序栈.i: Stack/顺序栈.cpp.i
+
+.PHONY : Stack/顺序栈.i
+
+# target to preprocess a source file
+Stack/顺序栈.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.i
+.PHONY : Stack/顺序栈.cpp.i
+
+Stack/顺序栈.s: Stack/顺序栈.cpp.s
+
+.PHONY : Stack/顺序栈.s
+
+# target to generate assembly for a file
+Stack/顺序栈.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.s
+.PHONY : Stack/顺序栈.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -365,6 +473,18 @@ help:
 	@echo ... LinearList/静态顺序表.obj
 	@echo ... LinearList/静态顺序表.i
 	@echo ... LinearList/静态顺序表.s
+	@echo ... Stack/共享栈.obj
+	@echo ... Stack/共享栈.i
+	@echo ... Stack/共享栈.s
+	@echo ... Stack/栈.obj
+	@echo ... Stack/栈.i
+	@echo ... Stack/栈.s
+	@echo ... Stack/链栈.obj
+	@echo ... Stack/链栈.i
+	@echo ... Stack/链栈.s
+	@echo ... Stack/顺序栈.obj
+	@echo ... Stack/顺序栈.i
+	@echo ... Stack/顺序栈.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -122,7 +122,28 @@
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Queue/queue.h">
 			<Option target="DataStructure"/>
 		</Unit>
-		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/stack.h">
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/共享栈.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/共享栈.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/栈.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/栈.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/链栈.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/链栈.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/顺序栈.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/顺序栈.h">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Tree/tree.h">

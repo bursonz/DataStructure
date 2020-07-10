@@ -160,6 +160,58 @@ CMakeFiles/DataStructure.dir/LinearList/动态顺序表.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/LinearList/动态顺序表.cpp.s"
 	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\LinearList\动态顺序表.cpp -o CMakeFiles\DataStructure.dir\LinearList\动态顺序表.cpp.s
 
+CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.obj: ../Stack/顺序栈.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Stack\顺序栈.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Stack\顺序栈.cpp
+
+CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Stack\顺序栈.cpp > CMakeFiles\DataStructure.dir\Stack\顺序栈.cpp.i
+
+CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Stack\顺序栈.cpp -o CMakeFiles\DataStructure.dir\Stack\顺序栈.cpp.s
+
+CMakeFiles/DataStructure.dir/Stack/链栈.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Stack/链栈.cpp.obj: ../Stack/链栈.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DataStructure.dir/Stack/链栈.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Stack\链栈.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Stack\链栈.cpp
+
+CMakeFiles/DataStructure.dir/Stack/链栈.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Stack/链栈.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Stack\链栈.cpp > CMakeFiles\DataStructure.dir\Stack\链栈.cpp.i
+
+CMakeFiles/DataStructure.dir/Stack/链栈.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Stack/链栈.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Stack\链栈.cpp -o CMakeFiles\DataStructure.dir\Stack\链栈.cpp.s
+
+CMakeFiles/DataStructure.dir/Stack/栈.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Stack/栈.cpp.obj: ../Stack/栈.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DataStructure.dir/Stack/栈.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Stack\栈.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Stack\栈.cpp
+
+CMakeFiles/DataStructure.dir/Stack/栈.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Stack/栈.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Stack\栈.cpp > CMakeFiles\DataStructure.dir\Stack\栈.cpp.i
+
+CMakeFiles/DataStructure.dir/Stack/栈.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Stack/栈.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Stack\栈.cpp -o CMakeFiles\DataStructure.dir\Stack\栈.cpp.s
+
+CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.obj: ../Stack/共享栈.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Stack\共享栈.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Stack\共享栈.cpp
+
+CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Stack\共享栈.cpp > CMakeFiles\DataStructure.dir\Stack\共享栈.cpp.i
+
+CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Stack\共享栈.cpp -o CMakeFiles\DataStructure.dir\Stack\共享栈.cpp.s
+
 # Object files for target DataStructure
 DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/main.cpp.obj" \
@@ -169,7 +221,11 @@ DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/LinearList/双链表.cpp.obj" \
 "CMakeFiles/DataStructure.dir/LinearList/静态链表.cpp.obj" \
 "CMakeFiles/DataStructure.dir/LinearList/循环链表.cpp.obj" \
-"CMakeFiles/DataStructure.dir/LinearList/动态顺序表.cpp.obj"
+"CMakeFiles/DataStructure.dir/LinearList/动态顺序表.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Stack/链栈.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Stack/栈.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.obj"
 
 # External object files for target DataStructure
 DataStructure_EXTERNAL_OBJECTS =
@@ -182,11 +238,15 @@ DataStructure.exe: CMakeFiles/DataStructure.dir/LinearList/双链表.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/LinearList/静态链表.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/LinearList/循环链表.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/LinearList/动态顺序表.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Stack/链栈.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Stack/栈.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Stack/共享栈.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/build.make
 DataStructure.exe: CMakeFiles/DataStructure.dir/linklibs.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/objects1.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable DataStructure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable DataStructure.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructure.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
