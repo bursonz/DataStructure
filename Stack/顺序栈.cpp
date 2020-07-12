@@ -12,9 +12,7 @@ bool InitStack(SqStack &S) {
 }
 
 void DestroyStack(SqStack &S) {
-    while (S.top>-1){
-
-    }
+    S.top=-1;
 
 }
 

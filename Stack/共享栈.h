@@ -9,6 +9,8 @@
 
 #include "../Definition.h"
 
+//TODO 待填充
+
 typedef struct {
     ElemType data[MAXSIZE];
     int top0;

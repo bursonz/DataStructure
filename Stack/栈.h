@@ -61,10 +61,17 @@ void PrintStack(Stack);
 
 
 /* 测试 */
+
 /**
  * 测试顺序栈
  */
 void TestSequenceStack();
+
+/**
+ * 测试共享栈
+ */
+void TestShareStack();
+
 /**
  * 测试链栈栈
  */
