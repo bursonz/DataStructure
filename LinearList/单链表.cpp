@@ -6,7 +6,7 @@
 #include "单链表.h"
 
 bool InitList(LinkList &L) {
-    L = (LNode *) malloc(sizeof(LNode)); //分配一个头结点
+    L = new LNode; //分配一个头结点
     if (L == NULL) //内存不足,分配失败
         return false;
     L->next = NULL; //头结点之后为空
@@ -102,7 +102,7 @@ bool InsertPriorNode(LNode *p, LNode *q) {
 }
 
 LinkList List_HeadInsert(LinkList &L) {
-    L = (LinkList) malloc(sizeof(LinkList));
+    L = new LNode;
     LNode *p = L->next = NULL;
     int x;
     std::cin >> x;
@@ -118,7 +118,7 @@ LinkList List_HeadInsert(LinkList &L) {
 
 LinkList List_HeadInsert(LinkList &L, ElemType *e, int length) {
     LNode *p;
-    L = (LinkList) malloc(sizeof(LNode));
+    L = new LNode ;
     p = L->next = NULL;
     for (int i = length - 1; i > 0; --i) {
         p = (LNode *) malloc(sizeof(LNode));

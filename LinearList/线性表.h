@@ -7,15 +7,15 @@
 
 #endif //DATASTRUCTURE_LIST_H
 
-#include "Definition.h"
+#include "../预定义.h"
 
-#include "LinearList/静态顺序表.h"
-#include "LinearList/动态顺序表.h"
+#include "静态顺序表.h"
+#include "动态顺序表.h"
 
-#include "LinearList/单链表.h"
-#include "LinearList/双链表.h"
-#include "LinearList/静态链表.h"
-#include "LinearList/循环链表.h"
+#include "单链表.h"
+#include "双链表.h"
+#include "静态链表.h"
+#include "循环链表.h"
 
 
 typedef struct {

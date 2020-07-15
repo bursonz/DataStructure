@@ -1,0 +1,63 @@
+# 串
+
+[TOC]
+
+## 概述
+
+![image-20200715205958118](README.assets/image-20200715205958118.png)
+
+
+
+## 存储结构
+
+![image-20200715221042294](README.assets/image-20200715221042294.png)
+
+### 顺序存储
+
+![image-20200715211358075](README.assets/image-20200715211358075.png)
+
+![image-20200715211903703](README.assets/image-20200715211903703.png)
+
+![image-20200715211926542](README.assets/image-20200715211926542.png)
+
+
+
+### 链式存储
+
+![image-20200715212309117](README.assets/image-20200715212309117.png)
+
+
+
+## 模式匹配
+
+### 朴素模式匹配
+
+> 与Index方法类似
+
+![image-20200715222649275](README.assets/image-20200715222649275.png)
+
+![image-20200715222831053](README.assets/image-20200715222831053.png)
+
+![image-20200715222903476](README.assets/image-20200715222903476.png)
+
+![image-20200715223421626](README.assets/image-20200715223421626.png)
+
+![image-20200715223533505](README.assets/image-20200715223533505.png)
+
+
+
+### KMP算法
+
+![image-20200715225612563](README.assets/image-20200715225612563.png)
+
+![image-20200715225907902](README.assets/image-20200715225907902.png)
+
+![image-20200715230335323](README.assets/image-20200715230335323.png)
+
+![image-20200715230551893](README.assets/image-20200715230551893.png)
+
+### KMP改进算法
+
+![image-20200715232312152](README.assets/image-20200715232312152.png)
+
+![image-20200715232718646](README.assets/image-20200715232718646.png)

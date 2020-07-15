@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Definition.h">
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Algorithm/串_模式匹配.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Array/数组.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Array/数组.h">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/LinearList/动态顺序表.cpp">
@@ -107,6 +113,12 @@
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/LinearList/循环链表.h">
 			<Option target="DataStructure"/>
 		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/LinearList/线性表.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/LinearList/线性表.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/LinearList/静态链表.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
@@ -122,6 +134,18 @@
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Queue/queue.h">
 			<Option target="DataStructure"/>
 		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Queue/链队.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Queue/链队.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Queue/顺序队.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Queue/顺序队.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/共享栈.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
@@ -132,6 +156,12 @@
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/栈.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/栈的应用.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/栈的应用.h">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/链栈.cpp">
@@ -146,16 +176,25 @@
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/顺序栈.h">
 			<Option target="DataStructure"/>
 		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/String/串.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/String/串.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/String/抽象串.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/String/抽象串.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Tree/tree.h">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/main.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
-		<Unit filename="D:/Workspace/ClionProjects/DataStructure/线性表.cpp">
-			<Option target="DataStructure"/>
-		</Unit>
-		<Unit filename="D:/Workspace/ClionProjects/DataStructure/线性表.h">
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/预定义.h">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/CMakeLists.txt">

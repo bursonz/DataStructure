@@ -7,7 +7,7 @@
 
 #endif //DATASTRUCTURE_STATICLINKEDLIST_H
 
-#include "../Definition.h"
+#include "../预定义.h"
 
 /**
  * 静态链表：

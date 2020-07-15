@@ -8,7 +8,7 @@
 
 #endif //DATASTRUCTURE_SQLIST_H
 
-#include "../Definition.h"
+#include "../预定义.h"
 
 /**
  * 顺序表：Sequence List

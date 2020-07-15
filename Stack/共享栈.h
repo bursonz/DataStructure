@@ -7,7 +7,7 @@
 
 #endif //DATASTRUCTURE_共享栈_H
 
-#include "../Definition.h"
+#include "../预定义.h"
 
 //TODO 待填充
 
@@ -15,4 +15,4 @@ typedef struct {
     ElemType data[MAXSIZE];
     int top0;
     int top1;
-}ShStack,ShareStack;
+} ShStack, ShareStack;

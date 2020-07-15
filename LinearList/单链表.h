@@ -7,7 +7,7 @@
 
 #endif //DATASTRUCTURE_LINKLIST_H
 
-#include "../Definition.h"
+#include "../预定义.h"
 
 /**
  * 链表：Linked List

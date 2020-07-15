@@ -6,13 +6,14 @@
 #define DATASTRUCTURE_链栈_H
 
 #endif //DATASTRUCTURE_链栈_H
-#include "../Definition.h"
+
+#include "../预定义.h"
 
 //一般用不带头结顶的链栈
-typedef struct LinkNode{
+typedef struct LinkNode {
     ElemType data;
     struct LinkNode *next;
-}*LiStack,*LinkedStack;
+} *LiStack, *LinkedStack;
 
 /**
  * 初始化
@@ -41,7 +42,7 @@ bool Push(LinkedStack &S, ElemType x);
  * @param x 出栈元素
  * @return
  */
-bool Pop(LinkedStack &S,ElemType &x);
+bool Pop(LinkedStack &S, ElemType &x);
 
 /**
  * 判空
@@ -59,4 +60,5 @@ bool StackFull(LinkedStack &S);
 
 
 int Length(LinkedStack &L);
+
 void PrintStack(LinkedStack S);

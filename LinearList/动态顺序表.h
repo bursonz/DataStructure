@@ -7,7 +7,7 @@
 
 #endif //DATASTRUCTURE_动态顺序表_H
 
-#include "../Definition.h"
+#include "../预定义.h"
 
 /**
  * 动态分配的顺序表
@@ -96,3 +96,4 @@ bool Full(SeqList L);
  * @param length 增加的长度
  */
 void IncreaseSize(SeqList &L, int length);
+

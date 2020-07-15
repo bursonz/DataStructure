@@ -7,13 +7,14 @@
 
 #endif //DATASTRUCTURE_顺序栈_H
 
-#include "../Definition.h"
+#include "../预定义.h"
 
+#define ElemType char
 
 typedef struct {
- ElemType data[MAXSIZE];
- int top;
-}SqStack,SequenceStack;
+    ElemType data[MAXSIZE];
+    int top;
+} SqStack, SequenceStack;
 
 /**
  * 初始化
@@ -42,7 +43,7 @@ bool Push(SqStack &S, ElemType x);
  * @param x 出栈元素
  * @return
  */
-bool Pop(SqStack &S,ElemType &x);
+bool Pop(SqStack &S, ElemType &x);
 
 /**
  * 判空

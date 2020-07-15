@@ -122,6 +122,60 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
+Algorithm/串_模式匹配.obj: Algorithm/串_模式匹配.cpp.obj
+
+.PHONY : Algorithm/串_模式匹配.obj
+
+# target to build an object file
+Algorithm/串_模式匹配.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Algorithm/串_模式匹配.cpp.obj
+.PHONY : Algorithm/串_模式匹配.cpp.obj
+
+Algorithm/串_模式匹配.i: Algorithm/串_模式匹配.cpp.i
+
+.PHONY : Algorithm/串_模式匹配.i
+
+# target to preprocess a source file
+Algorithm/串_模式匹配.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Algorithm/串_模式匹配.cpp.i
+.PHONY : Algorithm/串_模式匹配.cpp.i
+
+Algorithm/串_模式匹配.s: Algorithm/串_模式匹配.cpp.s
+
+.PHONY : Algorithm/串_模式匹配.s
+
+# target to generate assembly for a file
+Algorithm/串_模式匹配.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Algorithm/串_模式匹配.cpp.s
+.PHONY : Algorithm/串_模式匹配.cpp.s
+
+Array/数组.obj: Array/数组.cpp.obj
+
+.PHONY : Array/数组.obj
+
+# target to build an object file
+Array/数组.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Array/数组.cpp.obj
+.PHONY : Array/数组.cpp.obj
+
+Array/数组.i: Array/数组.cpp.i
+
+.PHONY : Array/数组.i
+
+# target to preprocess a source file
+Array/数组.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Array/数组.cpp.i
+.PHONY : Array/数组.cpp.i
+
+Array/数组.s: Array/数组.cpp.s
+
+.PHONY : Array/数组.s
+
+# target to generate assembly for a file
+Array/数组.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Array/数组.cpp.s
+.PHONY : Array/数组.cpp.s
+
 LinearList/动态顺序表.obj: LinearList/动态顺序表.cpp.obj
 
 .PHONY : LinearList/动态顺序表.obj
@@ -230,6 +284,33 @@ LinearList/循环链表.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/循环链表.cpp.s
 .PHONY : LinearList/循环链表.cpp.s
 
+LinearList/线性表.obj: LinearList/线性表.cpp.obj
+
+.PHONY : LinearList/线性表.obj
+
+# target to build an object file
+LinearList/线性表.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/线性表.cpp.obj
+.PHONY : LinearList/线性表.cpp.obj
+
+LinearList/线性表.i: LinearList/线性表.cpp.i
+
+.PHONY : LinearList/线性表.i
+
+# target to preprocess a source file
+LinearList/线性表.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/线性表.cpp.i
+.PHONY : LinearList/线性表.cpp.i
+
+LinearList/线性表.s: LinearList/线性表.cpp.s
+
+.PHONY : LinearList/线性表.s
+
+# target to generate assembly for a file
+LinearList/线性表.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/线性表.cpp.s
+.PHONY : LinearList/线性表.cpp.s
+
 LinearList/静态链表.obj: LinearList/静态链表.cpp.obj
 
 .PHONY : LinearList/静态链表.obj
@@ -283,6 +364,60 @@ LinearList/静态顺序表.s: LinearList/静态顺序表.cpp.s
 LinearList/静态顺序表.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/LinearList/静态顺序表.cpp.s
 .PHONY : LinearList/静态顺序表.cpp.s
+
+Queue/链队.obj: Queue/链队.cpp.obj
+
+.PHONY : Queue/链队.obj
+
+# target to build an object file
+Queue/链队.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Queue/链队.cpp.obj
+.PHONY : Queue/链队.cpp.obj
+
+Queue/链队.i: Queue/链队.cpp.i
+
+.PHONY : Queue/链队.i
+
+# target to preprocess a source file
+Queue/链队.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Queue/链队.cpp.i
+.PHONY : Queue/链队.cpp.i
+
+Queue/链队.s: Queue/链队.cpp.s
+
+.PHONY : Queue/链队.s
+
+# target to generate assembly for a file
+Queue/链队.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Queue/链队.cpp.s
+.PHONY : Queue/链队.cpp.s
+
+Queue/顺序队.obj: Queue/顺序队.cpp.obj
+
+.PHONY : Queue/顺序队.obj
+
+# target to build an object file
+Queue/顺序队.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Queue/顺序队.cpp.obj
+.PHONY : Queue/顺序队.cpp.obj
+
+Queue/顺序队.i: Queue/顺序队.cpp.i
+
+.PHONY : Queue/顺序队.i
+
+# target to preprocess a source file
+Queue/顺序队.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Queue/顺序队.cpp.i
+.PHONY : Queue/顺序队.cpp.i
+
+Queue/顺序队.s: Queue/顺序队.cpp.s
+
+.PHONY : Queue/顺序队.s
+
+# target to generate assembly for a file
+Queue/顺序队.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Queue/顺序队.cpp.s
+.PHONY : Queue/顺序队.cpp.s
 
 Stack/共享栈.obj: Stack/共享栈.cpp.obj
 
@@ -338,6 +473,33 @@ Stack/栈.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/栈.cpp.s
 .PHONY : Stack/栈.cpp.s
 
+Stack/栈的应用.obj: Stack/栈的应用.cpp.obj
+
+.PHONY : Stack/栈的应用.obj
+
+# target to build an object file
+Stack/栈的应用.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/栈的应用.cpp.obj
+.PHONY : Stack/栈的应用.cpp.obj
+
+Stack/栈的应用.i: Stack/栈的应用.cpp.i
+
+.PHONY : Stack/栈的应用.i
+
+# target to preprocess a source file
+Stack/栈的应用.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/栈的应用.cpp.i
+.PHONY : Stack/栈的应用.cpp.i
+
+Stack/栈的应用.s: Stack/栈的应用.cpp.s
+
+.PHONY : Stack/栈的应用.s
+
+# target to generate assembly for a file
+Stack/栈的应用.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/栈的应用.cpp.s
+.PHONY : Stack/栈的应用.cpp.s
+
 Stack/链栈.obj: Stack/链栈.cpp.obj
 
 .PHONY : Stack/链栈.obj
@@ -392,6 +554,60 @@ Stack/顺序栈.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Stack/顺序栈.cpp.s
 .PHONY : Stack/顺序栈.cpp.s
 
+String/串.obj: String/串.cpp.obj
+
+.PHONY : String/串.obj
+
+# target to build an object file
+String/串.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/String/串.cpp.obj
+.PHONY : String/串.cpp.obj
+
+String/串.i: String/串.cpp.i
+
+.PHONY : String/串.i
+
+# target to preprocess a source file
+String/串.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/String/串.cpp.i
+.PHONY : String/串.cpp.i
+
+String/串.s: String/串.cpp.s
+
+.PHONY : String/串.s
+
+# target to generate assembly for a file
+String/串.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/String/串.cpp.s
+.PHONY : String/串.cpp.s
+
+String/抽象串.obj: String/抽象串.cpp.obj
+
+.PHONY : String/抽象串.obj
+
+# target to build an object file
+String/抽象串.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/String/抽象串.cpp.obj
+.PHONY : String/抽象串.cpp.obj
+
+String/抽象串.i: String/抽象串.cpp.i
+
+.PHONY : String/抽象串.i
+
+# target to preprocess a source file
+String/抽象串.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/String/抽象串.cpp.i
+.PHONY : String/抽象串.cpp.i
+
+String/抽象串.s: String/抽象串.cpp.s
+
+.PHONY : String/抽象串.s
+
+# target to generate assembly for a file
+String/抽象串.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/String/抽象串.cpp.s
+.PHONY : String/抽象串.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -419,33 +635,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-线性表.obj: 线性表.cpp.obj
-
-.PHONY : 线性表.obj
-
-# target to build an object file
-线性表.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/线性表.cpp.obj
-.PHONY : 线性表.cpp.obj
-
-线性表.i: 线性表.cpp.i
-
-.PHONY : 线性表.i
-
-# target to preprocess a source file
-线性表.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/线性表.cpp.i
-.PHONY : 线性表.cpp.i
-
-线性表.s: 线性表.cpp.s
-
-.PHONY : 线性表.s
-
-# target to generate assembly for a file
-线性表.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/线性表.cpp.s
-.PHONY : 线性表.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -455,6 +644,12 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Algorithm/串_模式匹配.obj
+	@echo ... Algorithm/串_模式匹配.i
+	@echo ... Algorithm/串_模式匹配.s
+	@echo ... Array/数组.obj
+	@echo ... Array/数组.i
+	@echo ... Array/数组.s
 	@echo ... LinearList/动态顺序表.obj
 	@echo ... LinearList/动态顺序表.i
 	@echo ... LinearList/动态顺序表.s
@@ -467,30 +662,45 @@ help:
 	@echo ... LinearList/循环链表.obj
 	@echo ... LinearList/循环链表.i
 	@echo ... LinearList/循环链表.s
+	@echo ... LinearList/线性表.obj
+	@echo ... LinearList/线性表.i
+	@echo ... LinearList/线性表.s
 	@echo ... LinearList/静态链表.obj
 	@echo ... LinearList/静态链表.i
 	@echo ... LinearList/静态链表.s
 	@echo ... LinearList/静态顺序表.obj
 	@echo ... LinearList/静态顺序表.i
 	@echo ... LinearList/静态顺序表.s
+	@echo ... Queue/链队.obj
+	@echo ... Queue/链队.i
+	@echo ... Queue/链队.s
+	@echo ... Queue/顺序队.obj
+	@echo ... Queue/顺序队.i
+	@echo ... Queue/顺序队.s
 	@echo ... Stack/共享栈.obj
 	@echo ... Stack/共享栈.i
 	@echo ... Stack/共享栈.s
 	@echo ... Stack/栈.obj
 	@echo ... Stack/栈.i
 	@echo ... Stack/栈.s
+	@echo ... Stack/栈的应用.obj
+	@echo ... Stack/栈的应用.i
+	@echo ... Stack/栈的应用.s
 	@echo ... Stack/链栈.obj
 	@echo ... Stack/链栈.i
 	@echo ... Stack/链栈.s
 	@echo ... Stack/顺序栈.obj
 	@echo ... Stack/顺序栈.i
 	@echo ... Stack/顺序栈.s
+	@echo ... String/串.obj
+	@echo ... String/串.i
+	@echo ... String/串.s
+	@echo ... String/抽象串.obj
+	@echo ... String/抽象串.i
+	@echo ... String/抽象串.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... 线性表.obj
-	@echo ... 线性表.i
-	@echo ... 线性表.s
 .PHONY : help
 
 

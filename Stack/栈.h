@@ -7,10 +7,10 @@
 
 #endif //DATASTRUCTURE_STACK_H
 
-#include "../Definition.h"
+#include "../预定义.h"
 
 typedef struct {
-}Stack;
+} Stack;
 
 /**
  * 初始化
@@ -39,7 +39,7 @@ bool Push(Stack &S, ElemType x);
  * @param x 出栈元素
  * @return
  */
-bool Pop(Stack &S,ElemType &x);
+bool Pop(Stack &S, ElemType &x);
 
 /**
  * 判空
@@ -57,6 +57,7 @@ bool StackFull(Stack &S);
 
 
 int Length(Stack &L);
+
 void PrintStack(Stack);
 
 

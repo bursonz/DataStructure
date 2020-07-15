@@ -7,7 +7,7 @@
 
 #endif //DATASTRUCTURE_DOUBLELINKEDLIST_H
 
-#include "../Definition.h"
+#include "../预定义.h"
 
 typedef struct DNode {
     ElemType data;
