@@ -7,3 +7,6 @@
 
 #endif //DATASTRUCTURE_抽象树_H
 
+typedef struct {
+
+} AbstractTree;

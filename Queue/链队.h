@@ -9,6 +9,10 @@
 
 #include "../预定义.h"
 
+#include "../Tree/二叉树.h"
+
+#define ElemType BiTNode*
+
 typedef struct LinkNode {
     ElemType data;
     struct LinkNode *next;
@@ -103,7 +107,7 @@ bool EnQueue_WithoutHead(LinkedQueue &Q, ElemType x);
  * @param x
  * @return
  */
-bool DeQueue(LinkedQueue &Q, ElemType &x);
+bool DeQueue(LinkedQueue &Q, ElemType&x);
 
 /**
  * 出队
@@ -111,7 +115,7 @@ bool DeQueue(LinkedQueue &Q, ElemType &x);
  * @param x
  * @return
  */
-bool DeQueue_WithoutHead(LinkedQueue &Q, ElemType &x);
+bool DeQueue_WithoutHead(LinkedQueue &Q, ElemType&x);
 
 /**
  * 获取队头
@@ -119,7 +123,7 @@ bool DeQueue_WithoutHead(LinkedQueue &Q, ElemType &x);
  * @param x
  * @return
  */
-bool GetHead(LinkedQueue Q, ElemType &x);
+bool GetHead(LinkedQueue Q, ElemType&x);
 
 /**
  * 获取队头
@@ -127,4 +131,4 @@ bool GetHead(LinkedQueue Q, ElemType &x);
  * @param x
  * @return
  */
-bool GetHead_WithoutHead(LinkedQueue Q, ElemType &x);
+bool GetHead_WithoutHead(LinkedQueue Q, ElemType&x);

@@ -58,7 +58,7 @@ int QueueLength_WithoutHead(LinkedQueue Q) {
     return 0;
 }
 
-bool EnQueue(LinkedQueue &Q, int x) {
+bool EnQueue(LinkedQueue &Q, ElemType x) {
     LinkNode *p = new LinkNode;
     if (p == NULL || QueueFull(Q))
         return false;
@@ -69,7 +69,7 @@ bool EnQueue(LinkedQueue &Q, int x) {
     return true;
 }
 
-bool EnQueue_WithoutHead(LinkedQueue &Q, int x) {
+bool EnQueue_WithoutHead(LinkedQueue &Q, ElemType x) {
     LinkNode *p = new LinkNode;
     if (p == NULL || QueueFull(Q))
         return false;
@@ -84,7 +84,7 @@ bool EnQueue_WithoutHead(LinkedQueue &Q, int x) {
     return true;
 }
 
-bool DeQueue(LinkedQueue &Q, int &x) {
+bool DeQueue(LinkedQueue &Q, ElemType&x) {
     if (QueueEmpty(Q))
         return false;
     LinkNode *p = new LinkNode;
@@ -97,7 +97,7 @@ bool DeQueue(LinkedQueue &Q, int &x) {
     return true;
 }
 
-bool DeQueue_WithoutHead(LinkedQueue &Q, int &x) {
+bool DeQueue_WithoutHead(LinkedQueue &Q, ElemType&x) {
     if (QueueEmpty(Q))
         return false;
     LinkNode *p;
@@ -110,10 +110,10 @@ bool DeQueue_WithoutHead(LinkedQueue &Q, int &x) {
     return true;
 }
 
-bool GetHead(LinkedQueue Q, int &x) {
+bool GetHead(LinkedQueue Q, ElemType&x) {
     return false;
 }
 
-bool GetHead_WithoutHead(LinkedQueue Q, int &x) {
+bool GetHead_WithoutHead(LinkedQueue Q, ElemType&x) {
     return false;
 }

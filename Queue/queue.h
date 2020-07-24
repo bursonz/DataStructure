@@ -64,7 +64,7 @@ bool EnQueue(Queue &Q, ElemType x);
  * @param x
  * @return
  */
-bool DeQueue(Queue &Q, ElemType &x);
+bool DeQueue(Queue &Q, ElemType&x);
 
 /**
  * 获取队头
@@ -72,7 +72,7 @@ bool DeQueue(Queue &Q, ElemType &x);
  * @param x
  * @return
  */
-bool GetHead(Queue Q, ElemType &x);
+bool GetHead(Queue Q, ElemType&x);
 
 
 /* 测试 */

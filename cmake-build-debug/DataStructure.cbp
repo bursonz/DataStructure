@@ -188,7 +188,31 @@
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/String/抽象串.h">
 			<Option target="DataStructure"/>
 		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Tree/二叉排序树.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Tree/二叉排序树.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Tree/二叉树.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Tree/二叉树.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Tree/平衡二叉树.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Tree/平衡二叉树.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Tree/抽象树.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Tree/线索二叉树.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Tree/线索二叉树.h">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/main.cpp">

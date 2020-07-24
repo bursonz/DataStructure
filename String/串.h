@@ -18,7 +18,7 @@
 typedef struct {
     char ch[MAXLEN];
     int length;
-}SString,SeString,SequenceString;
+} SString, SeString, SequenceString;
 
 /**
  * 堆分配存储
@@ -27,16 +27,16 @@ typedef struct {
 typedef struct {
     char *ch;
     int length;
-}HString,HeapString;
+} HString, HeapString;
 
 /**
  * 块链存储
  * (链式存储实现)
  */
-typedef struct StringNode{
+typedef struct StringNode {
     char ch[4];   //每个结点存储多个字符,提高存储密度
     struct StringNode *next;
-}StringNode, *String;
+} StringNode, *String;
 
 
 /**
@@ -46,7 +46,7 @@ typedef struct StringNode{
  * @param chars
  * @return
  */
-bool StrAssign(SString &T,char chars[]);
+bool StrAssign(SString &T, char chars[]);
 
 /**
  * 复制
@@ -96,7 +96,7 @@ void DestroyString(SString &S);
  * @param S2
  * @return
  */
-bool Concat(SString &T,SString S1,SString S2);
+bool Concat(SString &T, SString S1, SString S2);
 
 /**
  * 比较
@@ -107,7 +107,7 @@ bool Concat(SString &T,SString S1,SString S2);
  * @param T
  * @return int
  */
-int StrCompare(SString S,SString T);
+int StrCompare(SString S, SString T);
 
 /**
  * 求字串
@@ -118,7 +118,7 @@ int StrCompare(SString S,SString T);
  * @param len
  * @return
  */
-bool SubString(SString &Sub,SString S,int pos,int len);
+bool SubString(SString &Sub, SString S, int pos, int len);
 
 /**
  * 定位操作
@@ -128,4 +128,4 @@ bool SubString(SString &Sub,SString S,int pos,int len);
  * @param T
  * @return int
  */
-int Index(SString S,SString T);
+int Index(SString S, SString T);

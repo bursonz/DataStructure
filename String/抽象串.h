@@ -12,7 +12,7 @@
 typedef struct {
     char ch[MAXSIZE];
     int length;
-}String,AbstractString;
+} String, AbstractString;
 
 /**
  * 赋值
@@ -21,7 +21,7 @@ typedef struct {
  * @param chars
  * @return
  */
-bool StrAssign(String &T,char chars[]);
+bool StrAssign(String &T, char chars[]);
 
 /**
  * 复制
@@ -71,7 +71,7 @@ void DestroyString(String &S);
  * @param S2
  * @return
  */
-bool Concat(String &T,String S1,String S2);
+bool Concat(String &T, String S1, String S2);
 
 /**
  * 比较
@@ -82,7 +82,7 @@ bool Concat(String &T,String S1,String S2);
  * @param T
  * @return int
  */
-int StrCompare(String S,String T);
+int StrCompare(String S, String T);
 
 /**
  * 求字串
@@ -93,7 +93,7 @@ int StrCompare(String S,String T);
  * @param len
  * @return
  */
-bool SubString(String &Sub,String S,int pos,int len);
+bool SubString(String &Sub, String S, int pos, int len);
 
 /**
  * 定位操作
@@ -103,4 +103,4 @@ bool SubString(String &Sub,String S,int pos,int len);
  * @param T
  * @return int
  */
-int Index(String S,String T);
+int Index(String S, String T);

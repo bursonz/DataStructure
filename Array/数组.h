@@ -10,5 +10,5 @@
 #include "../预定义.h"
 
 typedef struct {
-    
-}Array;
+
+} Array;

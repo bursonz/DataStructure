@@ -33,10 +33,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\IDE\JetBrains\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\IDE\JetBrains\apps\CLion\ch-0\201.8743.17\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\IDE\JetBrains\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = D:\IDE\JetBrains\apps\CLion\ch-0\201.8743.17\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -303,6 +303,58 @@ CMakeFiles/DataStructure.dir/Algorithm/串_模式匹配.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Algorithm/串_模式匹配.cpp.s"
 	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Algorithm\串_模式匹配.cpp -o CMakeFiles\DataStructure.dir\Algorithm\串_模式匹配.cpp.s
 
+CMakeFiles/DataStructure.dir/Tree/二叉树.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Tree/二叉树.cpp.obj: ../Tree/二叉树.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/DataStructure.dir/Tree/二叉树.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Tree\二叉树.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Tree\二叉树.cpp
+
+CMakeFiles/DataStructure.dir/Tree/二叉树.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Tree/二叉树.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Tree\二叉树.cpp > CMakeFiles\DataStructure.dir\Tree\二叉树.cpp.i
+
+CMakeFiles/DataStructure.dir/Tree/二叉树.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Tree/二叉树.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Tree\二叉树.cpp -o CMakeFiles\DataStructure.dir\Tree\二叉树.cpp.s
+
+CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.obj: ../Tree/线索二叉树.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Tree\线索二叉树.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Tree\线索二叉树.cpp
+
+CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Tree\线索二叉树.cpp > CMakeFiles\DataStructure.dir\Tree\线索二叉树.cpp.i
+
+CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Tree\线索二叉树.cpp -o CMakeFiles\DataStructure.dir\Tree\线索二叉树.cpp.s
+
+CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.obj: ../Tree/平衡二叉树.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Tree\平衡二叉树.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Tree\平衡二叉树.cpp
+
+CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Tree\平衡二叉树.cpp > CMakeFiles\DataStructure.dir\Tree\平衡二叉树.cpp.i
+
+CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Tree\平衡二叉树.cpp -o CMakeFiles\DataStructure.dir\Tree\平衡二叉树.cpp.s
+
+CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.obj: ../Tree/二叉排序树.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Tree\二叉排序树.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Tree\二叉排序树.cpp
+
+CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Tree\二叉排序树.cpp > CMakeFiles\DataStructure.dir\Tree\二叉排序树.cpp.i
+
+CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Tree\二叉排序树.cpp -o CMakeFiles\DataStructure.dir\Tree\二叉排序树.cpp.s
+
 # Object files for target DataStructure
 DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/main.cpp.obj" \
@@ -323,7 +375,11 @@ DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/Array/数组.cpp.obj" \
 "CMakeFiles/DataStructure.dir/String/抽象串.cpp.obj" \
 "CMakeFiles/DataStructure.dir/String/串.cpp.obj" \
-"CMakeFiles/DataStructure.dir/Algorithm/串_模式匹配.cpp.obj"
+"CMakeFiles/DataStructure.dir/Algorithm/串_模式匹配.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Tree/二叉树.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.obj"
 
 # External object files for target DataStructure
 DataStructure_EXTERNAL_OBJECTS =
@@ -347,11 +403,15 @@ DataStructure.exe: CMakeFiles/DataStructure.dir/Array/数组.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/String/抽象串.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/String/串.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/Algorithm/串_模式匹配.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/二叉树.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/build.make
 DataStructure.exe: CMakeFiles/DataStructure.dir/linklibs.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/objects1.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable DataStructure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable DataStructure.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructure.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

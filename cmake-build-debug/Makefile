@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\IDE\JetBrains\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\IDE\JetBrains\apps\CLion\ch-0\201.8743.17\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\IDE\JetBrains\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = D:\IDE\JetBrains\apps\CLion\ch-0\201.8743.17\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\Workspace\ClionProjects\DataStructure\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	D:\IDE\JetBrains\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	D:\IDE\JetBrains\apps\CLion\ch-0\201.8743.17\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	D:\IDE\JetBrains\apps\CLion\ch-0\201.7846.88\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\IDE\JetBrains\apps\CLion\ch-0\201.8743.17\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -608,6 +608,114 @@ String/抽象串.cpp.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/String/抽象串.cpp.s
 .PHONY : String/抽象串.cpp.s
 
+Tree/二叉排序树.obj: Tree/二叉排序树.cpp.obj
+
+.PHONY : Tree/二叉排序树.obj
+
+# target to build an object file
+Tree/二叉排序树.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.obj
+.PHONY : Tree/二叉排序树.cpp.obj
+
+Tree/二叉排序树.i: Tree/二叉排序树.cpp.i
+
+.PHONY : Tree/二叉排序树.i
+
+# target to preprocess a source file
+Tree/二叉排序树.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.i
+.PHONY : Tree/二叉排序树.cpp.i
+
+Tree/二叉排序树.s: Tree/二叉排序树.cpp.s
+
+.PHONY : Tree/二叉排序树.s
+
+# target to generate assembly for a file
+Tree/二叉排序树.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.s
+.PHONY : Tree/二叉排序树.cpp.s
+
+Tree/二叉树.obj: Tree/二叉树.cpp.obj
+
+.PHONY : Tree/二叉树.obj
+
+# target to build an object file
+Tree/二叉树.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/二叉树.cpp.obj
+.PHONY : Tree/二叉树.cpp.obj
+
+Tree/二叉树.i: Tree/二叉树.cpp.i
+
+.PHONY : Tree/二叉树.i
+
+# target to preprocess a source file
+Tree/二叉树.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/二叉树.cpp.i
+.PHONY : Tree/二叉树.cpp.i
+
+Tree/二叉树.s: Tree/二叉树.cpp.s
+
+.PHONY : Tree/二叉树.s
+
+# target to generate assembly for a file
+Tree/二叉树.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/二叉树.cpp.s
+.PHONY : Tree/二叉树.cpp.s
+
+Tree/平衡二叉树.obj: Tree/平衡二叉树.cpp.obj
+
+.PHONY : Tree/平衡二叉树.obj
+
+# target to build an object file
+Tree/平衡二叉树.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.obj
+.PHONY : Tree/平衡二叉树.cpp.obj
+
+Tree/平衡二叉树.i: Tree/平衡二叉树.cpp.i
+
+.PHONY : Tree/平衡二叉树.i
+
+# target to preprocess a source file
+Tree/平衡二叉树.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.i
+.PHONY : Tree/平衡二叉树.cpp.i
+
+Tree/平衡二叉树.s: Tree/平衡二叉树.cpp.s
+
+.PHONY : Tree/平衡二叉树.s
+
+# target to generate assembly for a file
+Tree/平衡二叉树.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.s
+.PHONY : Tree/平衡二叉树.cpp.s
+
+Tree/线索二叉树.obj: Tree/线索二叉树.cpp.obj
+
+.PHONY : Tree/线索二叉树.obj
+
+# target to build an object file
+Tree/线索二叉树.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.obj
+.PHONY : Tree/线索二叉树.cpp.obj
+
+Tree/线索二叉树.i: Tree/线索二叉树.cpp.i
+
+.PHONY : Tree/线索二叉树.i
+
+# target to preprocess a source file
+Tree/线索二叉树.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.i
+.PHONY : Tree/线索二叉树.cpp.i
+
+Tree/线索二叉树.s: Tree/线索二叉树.cpp.s
+
+.PHONY : Tree/线索二叉树.s
+
+# target to generate assembly for a file
+Tree/线索二叉树.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.s
+.PHONY : Tree/线索二叉树.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -698,6 +806,18 @@ help:
 	@echo ... String/抽象串.obj
 	@echo ... String/抽象串.i
 	@echo ... String/抽象串.s
+	@echo ... Tree/二叉排序树.obj
+	@echo ... Tree/二叉排序树.i
+	@echo ... Tree/二叉排序树.s
+	@echo ... Tree/二叉树.obj
+	@echo ... Tree/二叉树.i
+	@echo ... Tree/二叉树.s
+	@echo ... Tree/平衡二叉树.obj
+	@echo ... Tree/平衡二叉树.i
+	@echo ... Tree/平衡二叉树.s
+	@echo ... Tree/线索二叉树.obj
+	@echo ... Tree/线索二叉树.i
+	@echo ... Tree/线索二叉树.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -20,6 +20,11 @@
 #define ElemType ElementType
 #endif
 
+#ifndef KeyType
+#define KeyType int
+#endif
+
+
 #ifndef InitSize
 #define InitSize 10
 #endif

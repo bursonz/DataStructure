@@ -118,7 +118,7 @@ LinkList List_HeadInsert(LinkList &L) {
 
 LinkList List_HeadInsert(LinkList &L, ElemType *e, int length) {
     LNode *p;
-    L = new LNode ;
+    L = new LNode;
     p = L->next = NULL;
     for (int i = length - 1; i > 0; --i) {
         p = (LNode *) malloc(sizeof(LNode));
