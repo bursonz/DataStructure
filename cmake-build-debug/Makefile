@@ -196,6 +196,33 @@ Array/数组.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Array/数组.cpp.s
 .PHONY : Array/数组.cpp.s
 
+Graph/图.obj: Graph/图.cpp.obj
+
+.PHONY : Graph/图.obj
+
+# target to build an object file
+Graph/图.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Graph/图.cpp.obj
+.PHONY : Graph/图.cpp.obj
+
+Graph/图.i: Graph/图.cpp.i
+
+.PHONY : Graph/图.i
+
+# target to preprocess a source file
+Graph/图.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Graph/图.cpp.i
+.PHONY : Graph/图.cpp.i
+
+Graph/图.s: Graph/图.cpp.s
+
+.PHONY : Graph/图.s
+
+# target to generate assembly for a file
+Graph/图.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Graph/图.cpp.s
+.PHONY : Graph/图.cpp.s
+
 LinearList/动态顺序表.obj: LinearList/动态顺序表.cpp.obj
 
 .PHONY : LinearList/动态顺序表.obj
@@ -778,6 +805,9 @@ help:
 	@echo ... Array/数组.obj
 	@echo ... Array/数组.i
 	@echo ... Array/数组.s
+	@echo ... Graph/图.obj
+	@echo ... Graph/图.i
+	@echo ... Graph/图.s
 	@echo ... LinearList/动态顺序表.obj
 	@echo ... LinearList/动态顺序表.i
 	@echo ... LinearList/动态顺序表.s

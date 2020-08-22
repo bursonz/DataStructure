@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DataStructure.dir/Algorithm/串_模式匹配.cpp.obj"
   "CMakeFiles/DataStructure.dir/Array/数组.cpp.obj"
+  "CMakeFiles/DataStructure.dir/Graph/图.cpp.obj"
   "CMakeFiles/DataStructure.dir/LinearList/动态顺序表.cpp.obj"
   "CMakeFiles/DataStructure.dir/LinearList/单链表.cpp.obj"
   "CMakeFiles/DataStructure.dir/LinearList/双链表.cpp.obj"
