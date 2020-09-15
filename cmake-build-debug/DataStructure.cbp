@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Algorithm/LeetCode/01.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Algorithm/串_模式匹配.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
@@ -150,6 +153,30 @@
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Queue/顺序队.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Search/散列查找.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Search/树形查找.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Search/线性查找.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Sort/交换排序.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Sort/基数排序.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Sort/归并排序.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Sort/插入排序.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Sort/选择排序.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="D:/Workspace/ClionProjects/DataStructure/Stack/共享栈.cpp">

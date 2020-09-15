@@ -53,10 +53,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\IDE\JetBrains\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\IDE\JetBrains\apps\CLion\ch-0\202.6948.80\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\IDE\JetBrains\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = D:\IDE\JetBrains\apps\CLion\ch-0\202.6948.80\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -388,6 +388,123 @@ CMakeFiles/DataStructure.dir/Graph/图.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Graph/图.cpp.s"
 	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Graph\图.cpp -o CMakeFiles\DataStructure.dir\Graph\图.cpp.s
 
+CMakeFiles/DataStructure.dir/Search/线性查找.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Search/线性查找.cpp.obj: ../Search/线性查找.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/DataStructure.dir/Search/线性查找.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Search\线性查找.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Search\线性查找.cpp
+
+CMakeFiles/DataStructure.dir/Search/线性查找.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Search/线性查找.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Search\线性查找.cpp > CMakeFiles\DataStructure.dir\Search\线性查找.cpp.i
+
+CMakeFiles/DataStructure.dir/Search/线性查找.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Search/线性查找.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Search\线性查找.cpp -o CMakeFiles\DataStructure.dir\Search\线性查找.cpp.s
+
+CMakeFiles/DataStructure.dir/Search/树形查找.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Search/树形查找.cpp.obj: ../Search/树形查找.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/DataStructure.dir/Search/树形查找.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Search\树形查找.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Search\树形查找.cpp
+
+CMakeFiles/DataStructure.dir/Search/树形查找.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Search/树形查找.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Search\树形查找.cpp > CMakeFiles\DataStructure.dir\Search\树形查找.cpp.i
+
+CMakeFiles/DataStructure.dir/Search/树形查找.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Search/树形查找.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Search\树形查找.cpp -o CMakeFiles\DataStructure.dir\Search\树形查找.cpp.s
+
+CMakeFiles/DataStructure.dir/Search/散列查找.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Search/散列查找.cpp.obj: ../Search/散列查找.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/DataStructure.dir/Search/散列查找.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Search\散列查找.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Search\散列查找.cpp
+
+CMakeFiles/DataStructure.dir/Search/散列查找.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Search/散列查找.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Search\散列查找.cpp > CMakeFiles\DataStructure.dir\Search\散列查找.cpp.i
+
+CMakeFiles/DataStructure.dir/Search/散列查找.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Search/散列查找.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Search\散列查找.cpp -o CMakeFiles\DataStructure.dir\Search\散列查找.cpp.s
+
+CMakeFiles/DataStructure.dir/Algorithm/LeetCode/01.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Algorithm/LeetCode/01.cpp.obj: ../Algorithm/LeetCode/01.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/DataStructure.dir/Algorithm/LeetCode/01.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Algorithm\LeetCode\01.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Algorithm\LeetCode\01.cpp
+
+CMakeFiles/DataStructure.dir/Algorithm/LeetCode/01.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Algorithm/LeetCode/01.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Algorithm\LeetCode\01.cpp > CMakeFiles\DataStructure.dir\Algorithm\LeetCode\01.cpp.i
+
+CMakeFiles/DataStructure.dir/Algorithm/LeetCode/01.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Algorithm/LeetCode/01.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Algorithm\LeetCode\01.cpp -o CMakeFiles\DataStructure.dir\Algorithm\LeetCode\01.cpp.s
+
+CMakeFiles/DataStructure.dir/Sort/插入排序.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Sort/插入排序.cpp.obj: ../Sort/插入排序.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/DataStructure.dir/Sort/插入排序.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\插入排序.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Sort\插入排序.cpp
+
+CMakeFiles/DataStructure.dir/Sort/插入排序.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Sort/插入排序.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Sort\插入排序.cpp > CMakeFiles\DataStructure.dir\Sort\插入排序.cpp.i
+
+CMakeFiles/DataStructure.dir/Sort/插入排序.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Sort/插入排序.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Sort\插入排序.cpp -o CMakeFiles\DataStructure.dir\Sort\插入排序.cpp.s
+
+CMakeFiles/DataStructure.dir/Sort/交换排序.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Sort/交换排序.cpp.obj: ../Sort/交换排序.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/DataStructure.dir/Sort/交换排序.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\交换排序.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Sort\交换排序.cpp
+
+CMakeFiles/DataStructure.dir/Sort/交换排序.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Sort/交换排序.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Sort\交换排序.cpp > CMakeFiles\DataStructure.dir\Sort\交换排序.cpp.i
+
+CMakeFiles/DataStructure.dir/Sort/交换排序.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Sort/交换排序.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Sort\交换排序.cpp -o CMakeFiles\DataStructure.dir\Sort\交换排序.cpp.s
+
+CMakeFiles/DataStructure.dir/Sort/选择排序.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Sort/选择排序.cpp.obj: ../Sort/选择排序.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/DataStructure.dir/Sort/选择排序.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\选择排序.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Sort\选择排序.cpp
+
+CMakeFiles/DataStructure.dir/Sort/选择排序.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Sort/选择排序.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Sort\选择排序.cpp > CMakeFiles\DataStructure.dir\Sort\选择排序.cpp.i
+
+CMakeFiles/DataStructure.dir/Sort/选择排序.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Sort/选择排序.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Sort\选择排序.cpp -o CMakeFiles\DataStructure.dir\Sort\选择排序.cpp.s
+
+CMakeFiles/DataStructure.dir/Sort/归并排序.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Sort/归并排序.cpp.obj: ../Sort/归并排序.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/DataStructure.dir/Sort/归并排序.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\归并排序.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Sort\归并排序.cpp
+
+CMakeFiles/DataStructure.dir/Sort/归并排序.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Sort/归并排序.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Sort\归并排序.cpp > CMakeFiles\DataStructure.dir\Sort\归并排序.cpp.i
+
+CMakeFiles/DataStructure.dir/Sort/归并排序.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Sort/归并排序.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Sort\归并排序.cpp -o CMakeFiles\DataStructure.dir\Sort\归并排序.cpp.s
+
+CMakeFiles/DataStructure.dir/Sort/基数排序.cpp.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Sort/基数排序.cpp.obj: ../Sort/基数排序.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/DataStructure.dir/Sort/基数排序.cpp.obj"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\基数排序.cpp.obj -c D:\Workspace\ClionProjects\DataStructure\Sort\基数排序.cpp
+
+CMakeFiles/DataStructure.dir/Sort/基数排序.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Sort/基数排序.cpp.i"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Workspace\ClionProjects\DataStructure\Sort\基数排序.cpp > CMakeFiles\DataStructure.dir\Sort\基数排序.cpp.i
+
+CMakeFiles/DataStructure.dir/Sort/基数排序.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Sort/基数排序.cpp.s"
+	D:\Environment\.mingw\x86_64-8.1.0-win32-seh-rev0\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Workspace\ClionProjects\DataStructure\Sort\基数排序.cpp -o CMakeFiles\DataStructure.dir\Sort\基数排序.cpp.s
+
 # Object files for target DataStructure
 DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/main.cpp.obj" \
@@ -413,7 +530,16 @@ DataStructure_OBJECTS = \
 "CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.obj" \
 "CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.obj" \
 "CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.obj" \
-"CMakeFiles/DataStructure.dir/Graph/图.cpp.obj"
+"CMakeFiles/DataStructure.dir/Graph/图.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Search/线性查找.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Search/树形查找.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Search/散列查找.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Algorithm/LeetCode/01.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Sort/插入排序.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Sort/交换排序.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Sort/选择排序.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Sort/归并排序.cpp.obj" \
+"CMakeFiles/DataStructure.dir/Sort/基数排序.cpp.obj"
 
 # External object files for target DataStructure
 DataStructure_EXTERNAL_OBJECTS =
@@ -442,11 +568,20 @@ DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/线索二叉树.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/平衡二叉树.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/二叉排序树.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/Graph/图.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Search/线性查找.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Search/树形查找.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Search/散列查找.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Algorithm/LeetCode/01.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/插入排序.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/交换排序.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/选择排序.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/归并排序.cpp.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/基数排序.cpp.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/build.make
 DataStructure.exe: CMakeFiles/DataStructure.dir/linklibs.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/objects1.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable DataStructure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Workspace\ClionProjects\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable DataStructure.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructure.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

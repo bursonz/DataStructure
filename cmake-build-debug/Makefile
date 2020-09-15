@@ -58,10 +58,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\IDE\JetBrains\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\IDE\JetBrains\apps\CLion\ch-0\202.6948.80\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\IDE\JetBrains\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = D:\IDE\JetBrains\apps\CLion\ch-0\202.6948.80\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = D:\Workspace\ClionProjects\DataStructure\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	D:\IDE\JetBrains\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	D:\IDE\JetBrains\apps\CLion\ch-0\202.6948.80\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	D:\IDE\JetBrains\apps\CLion\ch-0\202.6397.106\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\IDE\JetBrains\apps\CLion\ch-0\202.6948.80\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -141,6 +141,33 @@ DataStructure: cmake_check_build_system
 DataStructure/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
+
+Algorithm/LeetCode/01.obj: Algorithm/LeetCode/01.cpp.obj
+
+.PHONY : Algorithm/LeetCode/01.obj
+
+# target to build an object file
+Algorithm/LeetCode/01.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Algorithm/LeetCode/01.cpp.obj
+.PHONY : Algorithm/LeetCode/01.cpp.obj
+
+Algorithm/LeetCode/01.i: Algorithm/LeetCode/01.cpp.i
+
+.PHONY : Algorithm/LeetCode/01.i
+
+# target to preprocess a source file
+Algorithm/LeetCode/01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Algorithm/LeetCode/01.cpp.i
+.PHONY : Algorithm/LeetCode/01.cpp.i
+
+Algorithm/LeetCode/01.s: Algorithm/LeetCode/01.cpp.s
+
+.PHONY : Algorithm/LeetCode/01.s
+
+# target to generate assembly for a file
+Algorithm/LeetCode/01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Algorithm/LeetCode/01.cpp.s
+.PHONY : Algorithm/LeetCode/01.cpp.s
 
 Algorithm/串_模式匹配.obj: Algorithm/串_模式匹配.cpp.obj
 
@@ -465,6 +492,222 @@ Queue/顺序队.s: Queue/顺序队.cpp.s
 Queue/顺序队.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Queue/顺序队.cpp.s
 .PHONY : Queue/顺序队.cpp.s
+
+Search/散列查找.obj: Search/散列查找.cpp.obj
+
+.PHONY : Search/散列查找.obj
+
+# target to build an object file
+Search/散列查找.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/散列查找.cpp.obj
+.PHONY : Search/散列查找.cpp.obj
+
+Search/散列查找.i: Search/散列查找.cpp.i
+
+.PHONY : Search/散列查找.i
+
+# target to preprocess a source file
+Search/散列查找.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/散列查找.cpp.i
+.PHONY : Search/散列查找.cpp.i
+
+Search/散列查找.s: Search/散列查找.cpp.s
+
+.PHONY : Search/散列查找.s
+
+# target to generate assembly for a file
+Search/散列查找.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/散列查找.cpp.s
+.PHONY : Search/散列查找.cpp.s
+
+Search/树形查找.obj: Search/树形查找.cpp.obj
+
+.PHONY : Search/树形查找.obj
+
+# target to build an object file
+Search/树形查找.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/树形查找.cpp.obj
+.PHONY : Search/树形查找.cpp.obj
+
+Search/树形查找.i: Search/树形查找.cpp.i
+
+.PHONY : Search/树形查找.i
+
+# target to preprocess a source file
+Search/树形查找.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/树形查找.cpp.i
+.PHONY : Search/树形查找.cpp.i
+
+Search/树形查找.s: Search/树形查找.cpp.s
+
+.PHONY : Search/树形查找.s
+
+# target to generate assembly for a file
+Search/树形查找.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/树形查找.cpp.s
+.PHONY : Search/树形查找.cpp.s
+
+Search/线性查找.obj: Search/线性查找.cpp.obj
+
+.PHONY : Search/线性查找.obj
+
+# target to build an object file
+Search/线性查找.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/线性查找.cpp.obj
+.PHONY : Search/线性查找.cpp.obj
+
+Search/线性查找.i: Search/线性查找.cpp.i
+
+.PHONY : Search/线性查找.i
+
+# target to preprocess a source file
+Search/线性查找.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/线性查找.cpp.i
+.PHONY : Search/线性查找.cpp.i
+
+Search/线性查找.s: Search/线性查找.cpp.s
+
+.PHONY : Search/线性查找.s
+
+# target to generate assembly for a file
+Search/线性查找.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/线性查找.cpp.s
+.PHONY : Search/线性查找.cpp.s
+
+Sort/交换排序.obj: Sort/交换排序.cpp.obj
+
+.PHONY : Sort/交换排序.obj
+
+# target to build an object file
+Sort/交换排序.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/交换排序.cpp.obj
+.PHONY : Sort/交换排序.cpp.obj
+
+Sort/交换排序.i: Sort/交换排序.cpp.i
+
+.PHONY : Sort/交换排序.i
+
+# target to preprocess a source file
+Sort/交换排序.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/交换排序.cpp.i
+.PHONY : Sort/交换排序.cpp.i
+
+Sort/交换排序.s: Sort/交换排序.cpp.s
+
+.PHONY : Sort/交换排序.s
+
+# target to generate assembly for a file
+Sort/交换排序.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/交换排序.cpp.s
+.PHONY : Sort/交换排序.cpp.s
+
+Sort/基数排序.obj: Sort/基数排序.cpp.obj
+
+.PHONY : Sort/基数排序.obj
+
+# target to build an object file
+Sort/基数排序.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/基数排序.cpp.obj
+.PHONY : Sort/基数排序.cpp.obj
+
+Sort/基数排序.i: Sort/基数排序.cpp.i
+
+.PHONY : Sort/基数排序.i
+
+# target to preprocess a source file
+Sort/基数排序.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/基数排序.cpp.i
+.PHONY : Sort/基数排序.cpp.i
+
+Sort/基数排序.s: Sort/基数排序.cpp.s
+
+.PHONY : Sort/基数排序.s
+
+# target to generate assembly for a file
+Sort/基数排序.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/基数排序.cpp.s
+.PHONY : Sort/基数排序.cpp.s
+
+Sort/归并排序.obj: Sort/归并排序.cpp.obj
+
+.PHONY : Sort/归并排序.obj
+
+# target to build an object file
+Sort/归并排序.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/归并排序.cpp.obj
+.PHONY : Sort/归并排序.cpp.obj
+
+Sort/归并排序.i: Sort/归并排序.cpp.i
+
+.PHONY : Sort/归并排序.i
+
+# target to preprocess a source file
+Sort/归并排序.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/归并排序.cpp.i
+.PHONY : Sort/归并排序.cpp.i
+
+Sort/归并排序.s: Sort/归并排序.cpp.s
+
+.PHONY : Sort/归并排序.s
+
+# target to generate assembly for a file
+Sort/归并排序.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/归并排序.cpp.s
+.PHONY : Sort/归并排序.cpp.s
+
+Sort/插入排序.obj: Sort/插入排序.cpp.obj
+
+.PHONY : Sort/插入排序.obj
+
+# target to build an object file
+Sort/插入排序.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/插入排序.cpp.obj
+.PHONY : Sort/插入排序.cpp.obj
+
+Sort/插入排序.i: Sort/插入排序.cpp.i
+
+.PHONY : Sort/插入排序.i
+
+# target to preprocess a source file
+Sort/插入排序.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/插入排序.cpp.i
+.PHONY : Sort/插入排序.cpp.i
+
+Sort/插入排序.s: Sort/插入排序.cpp.s
+
+.PHONY : Sort/插入排序.s
+
+# target to generate assembly for a file
+Sort/插入排序.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/插入排序.cpp.s
+.PHONY : Sort/插入排序.cpp.s
+
+Sort/选择排序.obj: Sort/选择排序.cpp.obj
+
+.PHONY : Sort/选择排序.obj
+
+# target to build an object file
+Sort/选择排序.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/选择排序.cpp.obj
+.PHONY : Sort/选择排序.cpp.obj
+
+Sort/选择排序.i: Sort/选择排序.cpp.i
+
+.PHONY : Sort/选择排序.i
+
+# target to preprocess a source file
+Sort/选择排序.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/选择排序.cpp.i
+.PHONY : Sort/选择排序.cpp.i
+
+Sort/选择排序.s: Sort/选择排序.cpp.s
+
+.PHONY : Sort/选择排序.s
+
+# target to generate assembly for a file
+Sort/选择排序.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/选择排序.cpp.s
+.PHONY : Sort/选择排序.cpp.s
 
 Stack/共享栈.obj: Stack/共享栈.cpp.obj
 
@@ -799,6 +1042,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DataStructure
+	@echo ... Algorithm/LeetCode/01.obj
+	@echo ... Algorithm/LeetCode/01.i
+	@echo ... Algorithm/LeetCode/01.s
 	@echo ... Algorithm/串_模式匹配.obj
 	@echo ... Algorithm/串_模式匹配.i
 	@echo ... Algorithm/串_模式匹配.s
@@ -835,6 +1081,30 @@ help:
 	@echo ... Queue/顺序队.obj
 	@echo ... Queue/顺序队.i
 	@echo ... Queue/顺序队.s
+	@echo ... Search/散列查找.obj
+	@echo ... Search/散列查找.i
+	@echo ... Search/散列查找.s
+	@echo ... Search/树形查找.obj
+	@echo ... Search/树形查找.i
+	@echo ... Search/树形查找.s
+	@echo ... Search/线性查找.obj
+	@echo ... Search/线性查找.i
+	@echo ... Search/线性查找.s
+	@echo ... Sort/交换排序.obj
+	@echo ... Sort/交换排序.i
+	@echo ... Sort/交换排序.s
+	@echo ... Sort/基数排序.obj
+	@echo ... Sort/基数排序.i
+	@echo ... Sort/基数排序.s
+	@echo ... Sort/归并排序.obj
+	@echo ... Sort/归并排序.i
+	@echo ... Sort/归并排序.s
+	@echo ... Sort/插入排序.obj
+	@echo ... Sort/插入排序.i
+	@echo ... Sort/插入排序.s
+	@echo ... Sort/选择排序.obj
+	@echo ... Sort/选择排序.i
+	@echo ... Sort/选择排序.s
 	@echo ... Stack/共享栈.obj
 	@echo ... Stack/共享栈.i
 	@echo ... Stack/共享栈.s
